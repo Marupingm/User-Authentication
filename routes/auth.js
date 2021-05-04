@@ -7,4 +7,4 @@ router.post('/register', register);
 router.post('/login', login);
 router.get('/profile', protect, getProfile);
 
-module.exports = router; 
+module.exports = router; // Modified on 2025-02-20 14:03:09
